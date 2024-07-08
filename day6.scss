@@ -1,0 +1,84 @@
+body {
+    font-family: "Inter", "Noto Sans KR", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #181818;
+}
+
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 30px 0;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+
+    .mobile_menu{
+        display: none;
+    }
+
+    .main_menu {
+        display: flex;
+        gap: 27px;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 27px;
+        text-transform: uppercase;
+    }
+}
+
+.main {
+    padding-top: 170px;
+    box-sizing: border-box;
+
+    .main_copy {
+        font-size: 4vw;
+        font-weight: 500;
+        line-height: 4vw;
+        margin-bottom: 124px;
+        margin-left:30px;
+    }
+
+    .business_info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 40px;
+        text-transform: uppercase;
+        padding:0px 30px 0px;
+        box-sizing: border-box;
+
+        .bi_contact {
+            display: flex;
+            gap: 87px;
+        }
+    }
+
+    .main_img {
+        background-image: url("./img/06_back.jpg");
+        background-size:cover;
+        height:448px;
+        color:#fff;
+        padding:30px;
+        box-sizing: border-box;
+        .img_copy {
+            width:530px;
+            font-size:18px;
+            line-height:24px;
+            font-weight:400;
+        }
+        .arrow{
+            display: none;
+        }
+    }
+
+}

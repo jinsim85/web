@@ -1,0 +1,419 @@
+@media only screen and (max-width: 600px) {
+  .header_container .header {
+    width: 100%;
+    height: 60px;
+  }
+  .header_container .header .mobile_menu_bt {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 16px;
+    top: calc(50% - 12px);
+    display: flex;
+    flex-direction: column;
+    padding: 4px 3px;
+    box-sizing: border-box;
+    gap: 4px;
+  }
+  .header_container .header .mobile_menu_bt span {
+    height: 2px;
+    background-color: #000;
+  }
+  .header_container .header .mobile_menu_ico {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: calc(50% - 12px);
+    display: flex;
+    gap: 19px;
+  }
+  .header_container .header .logo_section {
+    position: relative;
+    width: 130px;
+    top: inherit;
+    left: -3px;
+  }
+  .header_container .header .search_section {
+    display: none;
+  }
+  .header_container .header .my_menu {
+    display: none;
+  }
+  .header_container .main_nav_wrap {
+    display: none;
+  }
+  .main_container {
+    margin-top: 60px;
+  }
+  .main_container .main_visual {
+    height: 620px;
+    display: block;
+    background-image: url("./img/visual_mo.jpg");
+    background-size: cover;
+  }
+  .main_container .main_visual .visual_info {
+    width: 100%;
+    padding: 73px 23px;
+    box-sizing: border-box;
+  }
+  .main_container .main_visual .visual_info .visual_text1 {
+    font-size: 14px;
+  }
+  .main_container .main_visual .visual_info .visual_title {
+    font-size: 26px;
+    line-height: 34px;
+    margin-top: 5px;
+  }
+  .main_container .main_visual .visual_info .visual_text2 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .main_container .main_visual .visual_info .visual_bt {
+    font-size: 14px;
+    line-height: 38px;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+  .main_container .main_visual .visual_page {
+    bottom: 30px;
+    gap: 8px;
+  }
+  .main_container .main_visual .visual_page span {
+    width: 8px;
+    height: 8px;
+  }
+  .main_container .main_event {
+    margin-top: 40px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  .main_container .main_event .event {
+    height: 20vw;
+    flex: initial;
+    padding-left: 20px;
+  }
+  .main_container .main_event .event .event_info .event_title {
+    font-size: 18px;
+  }
+  .main_container .main_event .event .event_info .event_subt {
+    margin-top: 4px;
+  }
+  .main_container .main_machine {
+    width: 100%;
+    margin-top: 60px;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  .main_container .main_machine .main_title {
+    font-size: 20px;
+  }
+  .main_container .main_machine .machine_info {
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 16px;
+  }
+  .main_container .main_machine .machine_info .info_cont {
+    border: none;
+  }
+  .main_container .main_machine .machine_info .info_cont .info_text {
+    padding: 20px;
+  }
+  .main_container .main_machine .machine_info .info_cont .info_text .info_title {
+    font-size: 20px;
+  }
+  .main_container .main_machine .machine_info .info_cont .info_text .info_sub {
+    font-size: 14px;
+  }
+  .main_container .main_machine .machine_info .info_cont .info_text .info_bt {
+    display: none;
+  }
+  .main_container .main_new_coffee {
+    margin-top: 40px;
+  }
+  .main_container .main_new_coffee .new_wrap {
+    width: 100%;
+    height: initial;
+    flex-direction: column;
+  }
+  .main_container .main_new_coffee .new_wrap .new_info {
+    padding: 50px 0;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .main_container .main_new_coffee .new_wrap .new_info .new {
+    font-size: 14px;
+  }
+  .main_container .main_new_coffee .new_wrap .new_info .new_title {
+    font-size: 24px;
+    margin-top: 4px;
+    letter-spacing: -1px;
+  }
+  .main_container .main_new_coffee .new_wrap .new_info .new_title br {
+    display: none;
+  }
+  .main_container .main_new_coffee .new_wrap .new_info .new_sub {
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  .main_container .main_new_coffee .new_wrap .new_info .new_sub br {
+    display: none;
+  }
+  .main_container .main_new_coffee .new_wrap .new_info .new_bt {
+    margin-top: 20px;
+  }
+  .main_container .main_new_coffee .new_wrap .new_list {
+    padding: 60px 16px;
+    flex: initial;
+    width: 100%;
+  }
+  .main_container .main_new_coffee .new_wrap .new_list .new_menu {
+    justify-content: center;
+    margin-top: 0;
+    font-size: 18px;
+  }
+  .main_container .main_new_coffee .new_wrap .new_list .menu_list {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+  .main_container .main_new_coffee .new_wrap .new_list .menu_list li {
+    flex: initial;
+    width: calc(50% - 18px);
+  }
+  .main_container .main_new_coffee .new_wrap .new_list .menu_list li .new_cap_img img {
+    width: 80px;
+  }
+  .main_container .main_new_coffee .new_wrap .new_list .menu_list li .new_cap_desc {
+    padding: 15px 12px 10px;
+  }
+  .main_container .main_new_coffee .new_wrap .new_list .menu_list li .new_cap_desc .item_name {
+    font-size: 16px;
+    word-break: keep-all;
+  }
+  .main_container .main_new_coffee .new_wrap .new_list .menu_list li .new_cap_desc .new_cap_price {
+    font-size: 18px;
+    margin-top: 6px;
+  }
+  .main_container .main_machine_ilst {
+    width: 100%;
+    margin-top: 60px;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  .main_container .main_machine_ilst .main_title {
+    font-size: 20px;
+  }
+  .main_container .main_machine_ilst .machine_items ul {
+    flex-direction: column;
+  }
+  .main_container .main_machine_ilst .machine_items ul li {
+    display: none;
+    flex: initial;
+    width: 100%;
+  }
+  .main_container .main_machine_ilst .machine_items ul li:first-child {
+    display: block;
+  }
+  .main_container .main_machine_ilst .machine_items ul li .machine_img {
+    text-align: center;
+  }
+  .main_container .main_machine_ilst .machine_items ul li .machine_img img {
+    width: 90%;
+  }
+  .main_container .main_machine_ilst .machine_items ul li .machine_info .machine_name {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .main_container .main_machine_ilst .machine_items ul li .machine_info .machine_desc {
+    margin-top: 9px;
+    line-height: 18px;
+  }
+  .main_container .main_machine_ilst .machine_items ul li .machine_info .machine_price {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .main_container .main_machine_ilst .machine_items ul li .machine_info .machine_price .sale {
+    font-size: 16px;
+  }
+  .main_container .main_machine_ilst .machine_items ul li .machine_info .machine_bt {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0px 30px;
+  }
+  .main_container .main_collabo {
+    margin-top: 60px;
+  }
+  .main_container .main_collabo .collabo_wrap {
+    width: 100%;
+    padding: 60px 16px 60px;
+  }
+  .main_container .main_collabo .collabo_wrap .main_title {
+    font-size: 20px;
+    text-align: left;
+  }
+  .main_container .main_collabo .collabo_wrap .collabo_summary {
+    text-align: left;
+    margin-top: 5px;
+  }
+  .main_container .main_collabo .collabo_wrap .collabo_summary .ellipsis {
+    display: none;
+  }
+  .main_container .main_collabo .collabo_wrap .collabo_page {
+    margin-top: 30px;
+    gap: 8px;
+  }
+  .main_container .main_collabo .collabo_wrap .collabo_page span {
+    width: 8px;
+    height: 8px;
+  }
+  .main_container .main_collabo .collabo_wrap .collabo_items {
+    margin-top: 20px;
+  }
+  .main_container .main_collabo .collabo_wrap .collabo_items ul {
+    flex-direction: column;
+  }
+  .main_container .main_collabo .collabo_wrap .collabo_items ul li {
+    flex: initial;
+  }
+  .main_container .main_collabo .collabo_wrap .collabo_items ul li .collabo_info .collabo_title {
+    font-size: 16px;
+  }
+  .main_container .main_collabo .collabo_wrap .collabo_items ul li .collabo_info .collabo_text {
+    margin-top: 6px;
+  }
+  .main_container .main_collabo .collabo_wrap .collabo_items ul li .collabo_info .collabo_more {
+    display: none;
+  }
+  .main_container .main_icon_menu {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .main_container .main_icon_menu .icon_menu_items {
+    flex-wrap: wrap;
+    gap: 30px;
+    box-sizing: border-box;
+    margin: 0 16px;
+  }
+  .main_container .main_icon_menu .icon_menu_items li {
+    height: 93px;
+    flex: initial;
+    width: calc(50% - 15px);
+    background-image: url("./img/icon_menu1_m.svg");
+    background-position: center 2px;
+  }
+  .main_container .main_icon_menu .icon_menu_items li.icon2 {
+    background-image: url("./img/icon_menu2_m.svg");
+    background-position: center 0px;
+  }
+  .main_container .main_icon_menu .icon_menu_items li.icon3 {
+    background-image: url("./img/icon_menu3_m.svg");
+    background-position: center 3px;
+  }
+  .main_container .main_icon_menu .icon_menu_items li.icon4 {
+    background-image: url("./img/icon_menu4_m.svg");
+    background-position: center 5px;
+  }
+  .main_container .main_icon_menu .icon_menu_items li .menu_info {
+    margin-top: 50px;
+    padding: 0px;
+  }
+  .footer_container {
+    margin-top: 60px;
+    border: none;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer_container .footer_menu_wrap {
+    border: none;
+  }
+  .footer_container .footer_menu_wrap .footer_menu {
+    justify-content: left;
+    align-items: initial;
+    width: 100%;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .footer_container .footer_menu_wrap .footer_menu .menu_list {
+    flex-wrap: wrap;
+    padding: 0 16px;
+  }
+  .footer_container .footer_menu_wrap .footer_menu .menu_list li {
+    border: none;
+    color: #333;
+    margin: 11px 0;
+    padding-left: 0px;
+    padding-right: 20px;
+    height: 11px;
+    line-height: 11px;
+    border: none;
+  }
+  .footer_container .footer_menu_wrap .footer_menu .footer_language {
+    border: none;
+    padding: 20px 16px 20px;
+    box-sizing: border-box;
+  }
+  .footer_container .footer_menu_wrap .footer_menu .footer_language select {
+    width: 71px;
+    color: #333;
+  }
+  .footer_container .footer_info {
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 0px;
+    margin: 0px;
+    justify-content: initial;
+  }
+  .footer_container .footer_info .company_info {
+    flex: initial;
+    margin: 30px 16px;
+  }
+  .footer_container .footer_info .company_info ul li {
+    color: #888;
+  }
+  .footer_container .footer_info .company_info .footer_logo {
+    display: none;
+  }
+  .footer_container .footer_info .company_info .company_name {
+    margin-top: 0px;
+  }
+  .footer_container .footer_info .customer_info {
+    width: 100%;
+  }
+  .footer_container .footer_info .customer_info .customer_wrap {
+    display: flex;
+    background-color: #f8f8f8;
+    padding: 0 16px;
+    box-sizing: border-box;
+    align-items: center;
+    height: 53px;
+    line-height: 53px;
+  }
+  .footer_container .footer_info .customer_info .customer_wrap .customer_title {
+    margin-right: 4px;
+  }
+  .footer_container .footer_info .customer_info .customer_wrap .customer_phone {
+    font-size: 18px;
+    order: 1;
+    margin-top: 0;
+    flex: 1;
+    text-align: right;
+  }
+  .footer_container .footer_info .customer_info .customer_menu {
+    margin-top: 0px;
+    display: flex;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    height: 50px;
+  }
+  .footer_container .footer_info .customer_info .customer_menu li {
+    width: 33%;
+    text-align: center;
+    line-height: 50px;
+  }
+}/*# sourceMappingURL=mobile.css.map */

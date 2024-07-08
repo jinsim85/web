@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px) {
+    .header {
+        padding: 11px 15px 0;
+
+        .logo_section {
+            img {
+                width: 66px;
+            }
+        }
+
+        .main_menu {
+            display: none;
+        }
+
+        .mobile_menu {
+            display: block;
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+
+
+    .main {
+        padding-top: 80px;
+
+        .main_copy {
+            font-size: 5.5vw;
+            font-weight: 500;
+            line-height: 5.4vw;
+            margin-bottom: 33px;
+            margin-left: 15px;
+        }
+
+        .business_info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 15px;
+            text-transform: uppercase;
+            padding: 0px 15px 0px;
+            box-sizing: border-box;
+
+            .bi_contact {
+                display: flex;
+                gap: 18px;
+            }
+        }
+
+        .main_img {
+            padding: 15px;
+
+            .img_copy {
+                font-size: 14px;
+                line-height: 19px;
+                width: 100%;
+            }
+
+            .arrow {
+                display: block;
+                position: fixed;
+                bottom: 15px;
+                left: calc(50% - 18.5px);
+            }
+        }
+
+    }
+
+}

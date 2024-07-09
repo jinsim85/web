@@ -21,6 +21,11 @@ input {
   padding: 0px;
 }
 
+select {
+  font-family: "roboto", "Pretendard", sans-serif;
+  font-size: 13px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -125,6 +130,11 @@ a {
   font-weight: 500;
 }
 
+.main_title {
+  font-size: 26px;
+  font-weight: 500;
+}
+
 .main_container {
   margin-top: 140px;
 }
@@ -224,7 +234,6 @@ a {
   margin: 80px auto 0;
 }
 .main_container .main_machine .main_title {
-  font-size: 32px;
   text-align: center;
 }
 .main_container .main_machine .machine_info {
@@ -247,7 +256,7 @@ a {
   box-sizing: border-box;
 }
 .main_container .main_machine .machine_info .info_cont .info_text .info_title {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
 }
 .main_container .main_machine .machine_info .info_cont .info_text .info_sub {
@@ -365,7 +374,6 @@ a {
   margin: 80px auto 0;
 }
 .main_container .main_machine_ilst .main_title {
-  font-size: 32px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -446,7 +454,6 @@ a {
   background-color: #aaa;
 }
 .main_container .main_collabo .collabo_wrap .main_title {
-  font-size: 32px;
   text-align: center;
 }
 .main_container .main_collabo .collabo_wrap .collabo_summary {
@@ -556,13 +563,10 @@ a {
   padding-left: 0px;
   border: none;
 }
-.footer_container .footer_menu_wrap .footer_menu .footer_language {
-  border: 1px solid #ccc;
-}
 .footer_container .footer_menu_wrap .footer_menu .footer_language select {
   background: url("./img/down_arrow.svg") no-repeat;
   background-position: 95% 50%;
-  width: 100px;
+  width: 80px;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;

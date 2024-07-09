@@ -18,6 +18,10 @@ input {
     border: none;
     padding: 0px;
 }
+select{
+    font-family: "roboto", "Pretendard", sans-serif;
+    font-size:13px;
+}
 
 a {
     text-decoration: none;
@@ -146,6 +150,10 @@ a {
     }
 }
 
+.main_title{
+    font-size:26px;
+    font-weight: 500;
+}
 .main_container {
     margin-top: 140px;
 
@@ -262,7 +270,6 @@ a {
         margin: 80px auto 0;
 
         .main_title {
-            font-size: 32px;
             text-align: center;
         }
 
@@ -289,7 +296,7 @@ a {
                     box-sizing: border-box;
 
                     .info_title {
-                        font-size: 24px;
+                        font-size: 22px;
                         font-weight: 500;
                     }
 
@@ -440,7 +447,6 @@ a {
         margin: 80px auto 0;
 
         .main_title {
-            font-size: 32px;
             text-align: center;
             text-transform: uppercase;
         }
@@ -542,7 +548,6 @@ a {
             }
 
             .main_title {
-                font-size: 32px;
                 text-align: center;
             }
 
@@ -681,12 +686,11 @@ a {
 
             .footer_language {
 
-                border: 1px solid #ccc;
 
                 select {
                     background: url("./img/down_arrow.svg") no-repeat;
                     background-position: 95% 50%;
-                    width: 100px;
+                    width: 80px;
                     appearance: none;
                     border: none;
                     padding: 3px 5px;

@@ -407,12 +407,12 @@
 
           &.icon2 {
             background-image: url("./img/icon_menu2_m.svg");
-            background-position: center -2px;
+            background-position: center 3px;
           }
 
           &.icon3 {
             background-image: url("./img/icon_menu3_m.svg");
-            background-position: center -3px;
+            background-position: center 3px;
           }
 
           &.icon4 {
@@ -422,8 +422,15 @@
           }
 
           .menu_info {
+            color:#555;
+            font-size:13px;
             margin-top: 50px;
             padding: 0px;
+            .menu_name{
+              color:#555;
+            font-size:13px;
+            font-weight: 500;
+            }
             .menu_text{
               display: none;
             }
@@ -472,8 +479,8 @@
           box-sizing: border-box;
 
           select {
-            width: 71px;
-
+            width: 60px;
+            padding-left: 0;
             color: #333;
           }
         }
@@ -549,6 +556,8 @@
             width: 33%;
             text-align: center;
             line-height: 50px;
+            font-weight: 500;
+            color:#333;
           }
         }
       }

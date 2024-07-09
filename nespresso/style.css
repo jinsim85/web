@@ -624,6 +624,7 @@ a {
 .coffee_container .coffee_menu .coffee_menu_list li {
   padding: 0 15px;
   background: url("./img/coffee_menu_list_line.svg") right center no-repeat;
+  line-height: 25px;
 }
 .coffee_container .coffee_menu .coffee_menu_list li:first-child {
   padding-left: 0px;
@@ -641,25 +642,24 @@ a {
   font-size: 15px;
   color: #777;
   gap: 25px;
+  line-height: 25px;
 }
 .coffee_container .coffee_menu .coffee_sort .coffee_filter {
   background: url("./img/ico_filter.svg") right center no-repeat;
-  width: 53px;
-  height: 16px;
-  line-height: 16px;
+  width: 50px;
 }
 .coffee_container .coffee_menu .coffee_sort .coffee_order select {
   background: url(./img/down_arrow.svg) no-repeat;
   background-position: 95% 50%;
-  width: 95px;
+  width: 88px;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
   border: none;
-  padding: 3px 5px;
+  padding: 0;
   color: #777;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 400;
 }
 .coffee_container .coffee_products {
   margin-top: 40px;
@@ -667,26 +667,39 @@ a {
 .coffee_container .coffee_products .coffee_pro_list {
   display: flex;
   gap: 15px;
+  margin-bottom: 50px;
 }
 .coffee_container .coffee_products .coffee_pro_list li {
   flex: 1;
 }
 .coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img {
+  position: relative;
   height: 220px;
   background-color: #f8f8f8;
-  padding: 10px;
   box-sizing: border-box;
 }
-.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img .pro_lable {
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img .img_box {
   display: flex;
-  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img .img_box img {
+  width: 120px;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img .pro_lable {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 5px;
 }
 .coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img .pro_lable span {
   color: #fff;
-  font-size: 12px;
-  padding: 0 7px;
-  height: 20px;
-  line-height: 20px;
+  font-size: 10px;
+  padding: 0 6px;
+  height: 16px;
+  line-height: 16px;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -695,6 +708,76 @@ a {
 }
 .coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img .pro_lable span.new {
   background-color: #D79412;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_info {
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_info .coffee_feature {
+  display: flex;
+  gap: 3px;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_info .coffee_feature span {
+  background-color: #f8f8f8;
+  font-size: 12px;
+  color: #555;
+  line-height: 24px;
+  padding: 0 8px;
+  display: block;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_info .coffee_name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_info .coffee_desc {
+  font-size: 15px;
+  color: #333;
+  margin-top: 3px;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_info .coffee_price {
+  font-size: 15px;
+  margin-top: 15px;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_info .coffee_price .sale {
+  color: #C03636;
+  font-size: 18px;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_info .coffee_price .final span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_info .coffee_price .real {
+  color: #999;
+  text-decoration: line-through;
+}
+.coffee_container .coffee_page {
+  display: flex;
+  justify-content: center;
+}
+.coffee_container .coffee_page span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #888;
+}
+.coffee_container .coffee_page span.select {
+  color: #000;
+  text-decoration: underline;
+}
+.coffee_container .coffee_page span.prev {
+  background-image: url("./img/arrow_left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.coffee_container .coffee_page span.next {
+  background-image: url("./img/arrow_right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .footer_container {

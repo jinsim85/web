@@ -174,29 +174,30 @@
         flex-direction: column;
 
         .new_info {
-          padding: 50px 0;
+          padding: 36px 0;
           width: 100%;
           align-items: center;
           text-align: center;
+          background-image: url("./img/new_bg_m.svg");
 
           .new {
             font-size: 14px;
+            color:#fff;
+            font-weight:300;
           }
 
           .new_title {
-            font-size: 24px;
-            margin-top: 4px;
-
-            br {
-              display: none;
-            }
-
-            letter-spacing: -1px;
+            display: none;
           }
 
           .new_sub {
             margin-top: 5px;
-            font-size: 13px;
+            color:#fff;
+            .bold{
+              display: inline-block;
+            }
+            font-size:21px;
+            line-height: 29px;
 
             br {
               display: none;
@@ -205,6 +206,7 @@
 
           .new_bt {
             margin-top: 20px;
+            color:#fff;
           }
 
         }
@@ -362,6 +364,10 @@
 
             li {
               flex: initial;
+              display: none;
+              &:first-child{
+                display: block;
+              }
 
               .collabo_info {
                 .collabo_title {
@@ -385,39 +391,42 @@
 
     .main_icon_menu {
       width: 100%;
-      margin-top: 60px;
+      margin-top: 40px;
 
       .icon_menu_items {
-        flex-wrap: wrap;
-        gap: 30px;
+        gap: 10px;
         box-sizing: border-box;
         margin: 0 16px;
 
         li {
-          height: 93px;
+          height: 69px;
           flex: initial;
-          width: calc(50% - 15px);
+          width: 33%;
           background-image: url("./img/icon_menu1_m.svg");
-          background-position: center 2px;
+          background-position: center 4px;
 
           &.icon2 {
             background-image: url("./img/icon_menu2_m.svg");
-            background-position: center 0px;
+            background-position: center -2px;
           }
 
           &.icon3 {
             background-image: url("./img/icon_menu3_m.svg");
-            background-position: center 3px;
+            background-position: center -3px;
           }
 
           &.icon4 {
             background-image: url("./img/icon_menu4_m.svg");
             background-position: center 5px;
+            display: none;
           }
 
           .menu_info {
             margin-top: 50px;
             padding: 0px;
+            .menu_text{
+              display: none;
+            }
           }
         }
       }
@@ -425,7 +434,7 @@
   }
 
   .footer_container {
-    margin-top: 60px;
+    margin-top: 40px;
     border: none;
     display: flex;
     flex-direction: column-reverse;

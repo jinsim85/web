@@ -135,6 +135,11 @@ a {
   font-weight: 500;
 }
 
+.wrap {
+  width: 1128px;
+  margin: 0 auto;
+}
+
 .main_container {
   margin-top: 140px;
 }
@@ -532,6 +537,164 @@ a {
 .main_container .main_icon_menu .icon_menu_items li .menu_info .menu_text {
   margin-top: 3px;
   color: #555;
+}
+
+.coffee_container .coffee_visual {
+  width: 100%;
+  height: 390px;
+  background-image: url("./img/visual_coffee.jpg");
+  background-size: 1440px 390px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #F7E8E0;
+}
+.coffee_container .coffee_visual .visual_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 390px;
+}
+.coffee_container .coffee_visual .visual_info .visual_title {
+  font-size: 44px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.coffee_container .coffee_visual .visual_info .visual_desc {
+  font-size: 22px;
+  margin-top: 11px;
+}
+.coffee_container .coffee_category_box {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.coffee_container .coffee_category_box .wrap ul {
+  width: 100%;
+  display: flex;
+}
+.coffee_container .coffee_category_box .wrap ul li {
+  box-sizing: border-box;
+  flex: 1;
+  text-align: center;
+  height: 55px;
+  line-height: 55px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #777;
+}
+.coffee_container .coffee_category_box .wrap ul li.select {
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+.coffee_container .coffee_event {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+.coffee_container .coffee_event .event {
+  flex: 1;
+  height: 130px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.coffee_container .coffee_event .event .event_info .event_title {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+.coffee_container .coffee_event .event .event_info .event_subt {
+  font-size: 14px;
+  color: #000;
+  margin-top: 6px;
+}
+.coffee_container .coffee_menu {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.coffee_container .coffee_menu .coffee_menu_list {
+  display: flex;
+  font-size: 16px;
+  color: #777;
+  font-weight: 400;
+}
+.coffee_container .coffee_menu .coffee_menu_list li {
+  padding: 0 15px;
+  background: url("./img/coffee_menu_list_line.svg") right center no-repeat;
+}
+.coffee_container .coffee_menu .coffee_menu_list li:first-child {
+  padding-left: 0px;
+}
+.coffee_container .coffee_menu .coffee_menu_list li:last-child {
+  background: none;
+}
+.coffee_container .coffee_menu .coffee_menu_list li.select {
+  color: #000;
+  font-weight: 500;
+}
+.coffee_container .coffee_menu .coffee_sort {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #777;
+  gap: 25px;
+}
+.coffee_container .coffee_menu .coffee_sort .coffee_filter {
+  background: url("./img/ico_filter.svg") right center no-repeat;
+  width: 53px;
+  height: 16px;
+  line-height: 16px;
+}
+.coffee_container .coffee_menu .coffee_sort .coffee_order select {
+  background: url(./img/down_arrow.svg) no-repeat;
+  background-position: 95% 50%;
+  width: 95px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  padding: 3px 5px;
+  color: #777;
+  font-size: 16px;
+  font-weight: 300;
+}
+.coffee_container .coffee_products {
+  margin-top: 40px;
+}
+.coffee_container .coffee_products .coffee_pro_list {
+  display: flex;
+  gap: 15px;
+}
+.coffee_container .coffee_products .coffee_pro_list li {
+  flex: 1;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img {
+  height: 220px;
+  background-color: #f8f8f8;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img .pro_lable {
+  display: flex;
+  gap: 6px;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img .pro_lable span {
+  color: #fff;
+  font-size: 12px;
+  padding: 0 7px;
+  height: 20px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img .pro_lable span.best {
+  background-color: #C03636;
+}
+.coffee_container .coffee_products .coffee_pro_list li .coffee_pro_img .pro_lable span.new {
+  background-color: #D79412;
 }
 
 .footer_container {

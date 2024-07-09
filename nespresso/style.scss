@@ -18,9 +18,10 @@ input {
     border: none;
     padding: 0px;
 }
-select{
+
+select {
     font-family: "roboto", "Pretendard", sans-serif;
-    font-size:13px;
+    font-size: 13px;
 }
 
 a {
@@ -150,10 +151,16 @@ a {
     }
 }
 
-.main_title{
-    font-size:26px;
+.main_title {
+    font-size: 26px;
     font-weight: 500;
 }
+
+.wrap {
+    width: 1128px;
+    margin: 0 auto;
+}
+
 .main_container {
     margin-top: 140px;
 
@@ -646,6 +653,189 @@ a {
                         margin-top: 3px;
                         color: #555;
                     }
+                }
+            }
+        }
+    }
+}
+
+.coffee_container {
+    .coffee_visual {
+        width: 100%;
+        height: 390px;
+        background-image: url("./img/visual_coffee.jpg");
+        background-size: 1440px 390px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #F7E8E0;
+
+        .visual_info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 390px;
+
+            .visual_title {
+                font-size: 44px;
+                font-weight: 500;
+                letter-spacing: -1px;
+            }
+
+            .visual_desc {
+                font-size: 22px;
+                margin-top: 11px;
+            }
+        }
+    }
+
+    .coffee_category_box {
+
+        box-sizing: border-box;
+        border-bottom: 1px solid #ccc;
+
+        .wrap {
+            ul {
+                width: 100%;
+                display: flex;
+
+                li {
+                    box-sizing: border-box;
+                    flex: 1;
+                    text-align: center;
+                    height: 55px;
+                    line-height: 55px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #777;
+
+
+                    &.select {
+                        border-bottom: 1px solid #000;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+
+    .coffee_event {
+        display: flex;
+        gap: 10px;
+        margin-top: 50px;
+
+        .event {
+            flex: 1;
+            height: 130px;
+            padding-left: 30px;
+            box-sizing: border-box;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+
+            .event_info {
+                .event_title {
+                    font-size: 22px;
+                    font-weight: 600;
+                    letter-spacing: -1px;
+                }
+
+                .event_subt {
+                    font-size: 14px;
+                    color: #000;
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+
+    .coffee_menu {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .coffee_menu_list {
+            display: flex;
+            font-size: 16px;
+            color: #777;
+            font-weight: 400;
+
+            li {
+                padding: 0 15px;
+                background: url("./img/coffee_menu_list_line.svg") right center no-repeat;
+
+                &:first-child {
+                    padding-left: 0px;
+                }
+
+                &:last-child {
+                    background: none;
+                }
+
+                &.select {
+                    color: #000;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .coffee_sort {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            color: #777;
+            gap: 25px;
+
+            .coffee_filter {
+                background: url("./img/ico_filter.svg") right center no-repeat;
+                width: 53px;
+                height: 16px;
+                line-height: 16px;
+            }
+
+            .coffee_order {
+                select {
+                    background: url(./img/down_arrow.svg) no-repeat;
+                    background-position: 95% 50%;
+                    width: 95px;
+                    appearance: none;
+                    border: none;
+                    padding: 3px 5px;
+                    color: #777;
+                    font-size:16px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+    .coffee_products{
+        margin-top:40px;
+        .coffee_pro_list{
+            display: flex;
+            gap:15px;
+            li{
+                flex:1;
+                .coffee_pro_img{
+                    height:220px;
+                    background-color: #f8f8f8;
+                    padding:10px;
+                    box-sizing: border-box;
+                    .pro_lable{
+                        display: flex;
+                        gap:6px;
+                        span{
+                            color:#fff;
+                            font-size:12px;
+                            padding:0 7px;
+                            height:20px;
+                            line-height: 20px;
+                            font-weight: 300;
+                            text-transform: uppercase;
+                            &.best{background-color:#C03636;}
+                            &.new{background-color:#D79412}
+                        }
+                    }
+
                 }
             }
         }

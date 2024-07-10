@@ -585,12 +585,15 @@ a {
   border-bottom: 1px solid #000;
   color: #000;
 }
-.coffee_container .coffee_event {
+.coffee_container .coffee_event .coffee_event_page {
+  display: none;
+}
+.coffee_container .coffee_event .event_banner {
   display: flex;
   gap: 10px;
   margin-top: 50px;
 }
-.coffee_container .coffee_event .event {
+.coffee_container .coffee_event .event_banner .event {
   flex: 1;
   height: 130px;
   padding-left: 30px;
@@ -599,12 +602,12 @@ a {
   display: flex;
   align-items: center;
 }
-.coffee_container .coffee_event .event .event_info .event_title {
+.coffee_container .coffee_event .event_banner .event .event_info .event_title {
   font-size: 22px;
   font-weight: 600;
   letter-spacing: -1px;
 }
-.coffee_container .coffee_event .event .event_info .event_subt {
+.coffee_container .coffee_event .event_banner .event .event_info .event_subt {
   font-size: 14px;
   color: #000;
   margin-top: 6px;
@@ -722,6 +725,7 @@ a {
   font-size: 12px;
   color: #555;
   line-height: 24px;
+  height: 22px;
   padding: 0 8px;
   display: block;
 }

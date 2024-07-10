@@ -456,6 +456,9 @@
   }
 
   .coffee_container {
+    display: flex;
+    flex-direction: column;
+    
     .coffee_visual {
       display: none;
     }
@@ -471,7 +474,7 @@
     }
 
     .coffee_event {
-
+order:-1;
       position: relative;
 
       .coffee_event_page {

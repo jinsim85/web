@@ -347,6 +347,10 @@
   .main_container .main_icon_menu .icon_menu_items li .menu_info .menu_text {
     display: none;
   }
+  .coffee_container {
+    display: flex;
+    flex-direction: column;
+  }
   .coffee_container .coffee_visual {
     display: none;
   }
@@ -354,6 +358,7 @@
     font-size: 15px;
   }
   .coffee_container .coffee_event {
+    order: -1;
     position: relative;
   }
   .coffee_container .coffee_event .coffee_event_page {

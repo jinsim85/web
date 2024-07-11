@@ -4,6 +4,8 @@ body {
   padding: 0px;
   color: #000;
   font-size: 14px;
+  -webkit-font-smooth: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 ul,
@@ -970,11 +972,12 @@ a {
   line-height: 62px;
   border: none;
   padding: 0px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   background-color: #fff;
   box-sizing: border-box;
   text-align: center;
+  font-family: "roboto", "Pretendard", sans-serif;
 }
 .product_view .pro_photo_info .product_detail_info .pro_detail_button .add_cart {
   border: 1px solid #444;
@@ -992,6 +995,306 @@ a {
   color: #fff;
   font-size: 18px;
   text-align: center;
+}
+.product_view .tab_box {
+  margin-top: 90px;
+}
+.product_view .tab_box .pro_tab_menu {
+  display: flex;
+}
+.product_view .tab_box .pro_tab_menu li {
+  flex: 1;
+  text-align: center;
+  line-height: 70px;
+  height: 70px;
+  color: #777;
+  font-size: 18px;
+  font-weight: 500;
+}
+.product_view .tab_box .pro_tab_menu li.select {
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+.product_view .pro_detail_view .pro_img_overview {
+  background-color: #ECDFD5;
+}
+.product_view .pro_detail_view .pro_img_overview .overview.wrap {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  position: relative;
+  background-image: url("./img/pro_over_bg.jpg");
+  background-size: cover;
+}
+.product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box {
+  width: 100%;
+}
+.product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .tit_eng {
+  color: #D9AE92;
+}
+.product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .tit_eng img {
+  width: 150px;
+}
+.product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .pro_tit {
+  font-size: 50px;
+  letter-spacing: -1.5px;
+}
+.product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .pro_desc {
+  margin-top: 18px;
+  font-size: 20px;
+  color: #222;
+  line-height: 30px;
+}
+.product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .divider {
+  width: 60px;
+  height: 2px;
+  background-color: #222;
+  margin-top: 46px;
+}
+.product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .pro_desc2 {
+  margin-top: 46px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555;
+}
+.product_view .pro_detail_view .pro_img_overview .overview.wrap .img_box {
+  position: absolute;
+  right: 0px;
+  bottom: -40px;
+  width: 548px;
+}
+.product_view .pro_detail_view .pro_img_overview .overview.wrap .img_box img {
+  width: 100%;
+}
+.product_view .pro_overview {
+  border-bottom: 1px solid #ddd;
+  margin-top: 70px;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0px 50px 70px;
+  box-sizing: border-box;
+}
+.product_view .pro_overview .origin .ori_tit {
+  color: #777;
+}
+.product_view .pro_overview .origin .ori_txt {
+  margin-top: 10px;
+}
+.product_view .pro_taste {
+  position: relative;
+  margin-top: 70px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+.product_view .pro_taste .tas_txt {
+  font-size: 18px;
+  color: #333;
+  margin-top: 23px;
+}
+.product_view .pro_taste .tas_list {
+  width: 650px;
+  margin-top: 38px;
+  padding: 50px;
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.product_view .pro_taste .tas_list li {
+  display: flex;
+}
+.product_view .pro_taste .tas_list li .tas_li_tit {
+  width: 90px;
+  font-size: 16px;
+  color: #333;
+}
+.product_view .pro_taste .tas_list li .tas_li_score {
+  flex: 1;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.product_view .pro_taste .tas_list li .tas_li_score span {
+  display: block;
+  flex: 1;
+  background-color: #ccc;
+  height: 3px;
+}
+.product_view .pro_taste .tas_list li .tas_li_score span.select {
+  background-color: #000;
+}
+.product_view .pro_taste .tas_list_txt {
+  font-size: 16px;
+  color: #333;
+  margin-top: 32px;
+}
+.product_view .pro_taste .tas_intens {
+  position: absolute;
+  right: 80px;
+  top: calc(50% - 110px);
+  width: 220px;
+  height: 220px;
+  background-color: #8C6449;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-image: url("./img/taste_bg.png");
+  background-size: cover;
+}
+.product_view .pro_taste .tas_intens .intens_tit {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 24px;
+}
+.product_view .pro_taste .tas_intens .intens_num {
+  font-size: 137px;
+  font-weight: 700;
+  line-height: 105px;
+}
+.product_view .pro_recipe {
+  background-color: #f8f8f8;
+}
+.product_view .pro_recipe .wrap {
+  margin-top: 70px;
+  padding: 70px 50px;
+  box-sizing: border-box;
+}
+.product_view .pro_recipe .wrap .recipe_txt {
+  font-size: 18px;
+  margin-top: 18px;
+}
+.product_view .pro_recipe .wrap .recipe_items {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+  line-height: 15px;
+}
+.product_view .pro_recipe .wrap .recipe_items li {
+  flex: 1;
+  height: 377px;
+  background-color: #fff;
+  padding: 20px 20px 43px;
+  box-sizing: border-box;
+}
+.product_view .pro_recipe .wrap .recipe_items li .time_level {
+  display: flex;
+  font-size: 14px;
+  color: #666;
+  gap: 12px;
+}
+.product_view .pro_recipe .wrap .recipe_items li .time_level .time {
+  background-image: url("./img/ico_time.svg");
+  background-repeat: no-repeat;
+  background-position: left 0px;
+  padding-left: 19px;
+  box-sizing: border-box;
+}
+.product_view .pro_recipe .wrap .recipe_items li .time_level .time span {
+  background-image: url("./img/line_10.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  display: block;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+.product_view .pro_recipe .wrap .recipe_items li .time_level .level {
+  background-image: url("./img/ico_star.svg");
+  background-repeat: no-repeat;
+  background-position: left -1px;
+  padding-left: 19px;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+.product_view .pro_recipe .wrap .recipe_items li .recipe_img {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_view .pro_recipe .wrap .recipe_items li .recipe_img img {
+  height: 170px;
+}
+.product_view .pro_recipe .wrap .recipe_items li .recipe_info {
+  text-align: center;
+}
+.product_view .pro_recipe .wrap .recipe_items li .recipe_info .rec_tit {
+  font-size: 20px;
+}
+.product_view .pro_recipe .wrap .recipe_items li .recipe_info .rec_desc {
+  font-size: 15px;
+  color: #333;
+  margin-top: 8px;
+}
+.product_view .border_bottom {
+  border-bottom: 1px solid #ddd;
+}
+.product_view .pro_recomm_cap {
+  padding: 70px 50px;
+  box-sizing: border-box;
+}
+.product_view .pro_recomm_cap .recomm_items {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+.product_view .pro_recomm_cap .recomm_items li {
+  flex: 1;
+}
+.product_view .pro_recomm_cap .recomm_items li .recomm_img {
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+.product_view .pro_recomm_cap .recomm_items li .recomm_img img {
+  width: 130px;
+  display: block;
+}
+.product_view .pro_recomm_cap .recomm_items li .recomm_info {
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_tit {
+  font-size: 18px;
+  font-weight: 500;
+}
+.product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_desc {
+  font-size: 15px;
+  color: #333;
+  margin-top: 2px;
+}
+.product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_price {
+  margin-top: 15px;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+}
+.product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_price .sale {
+  color: #C03636;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_price .final {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+.product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_price .real {
+  font-size: 15px;
+  color: #777;
+  text-decoration: line-through;
 }
 
 .footer_container {

@@ -4,6 +4,8 @@ body {
     padding: 0px;
     color: #000;
     font-size: 14px;
+    -webkit-font-smooth:antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 ul,
@@ -993,7 +995,7 @@ a {
             .pro_thumb_list {
                 display: flex;
                 gap: 8px;
-                margin-top:15px;
+                margin-top: 15px;
 
                 li {
                     width: 139px;
@@ -1111,9 +1113,10 @@ a {
 
                         .intens {
                             display: flex;
-                            height:100%;
+                            height: 100%;
                             align-items: center;
-                            gap:5px;
+                            gap: 5px;
+
                             div {
                                 border-radius: 50%;
                                 background-color: #333;
@@ -1121,15 +1124,17 @@ a {
                                 width: 5px;
                                 height: 5px;
                             }
-                            .select{
-                                font-size:14px;
-                                width:20px;
-                                height:20px;
-                                color:#fff;
+
+                            .select {
+                                font-size: 14px;
+                                width: 20px;
+                                height: 20px;
+                                color: #fff;
                                 line-height: 20px;
                                 text-align: center;
                             }
-                            .none{
+
+                            .none {
                                 opacity: 30%;
                             }
                         }
@@ -1142,34 +1147,40 @@ a {
             .pro_detail_total {
                 display: flex;
                 justify-content: space-between;
-                margin-top:30px;
+                margin-top: 30px;
                 background-color: #f8f8f8;
-                padding:20px;
+                padding: 20px;
                 box-sizing: border-box;
-                .price_calc{
+
+                .price_calc {
                     display: flex;
-                    border:1px solid #ddd;
-                    height:32px;
+                    border: 1px solid #ddd;
+                    height: 32px;
                     box-sizing: border-box;
                     background-color: #fff;
                     text-align: center;
                     line-height: 32px;
-                    .minus{
-                        width:30px;
+
+                    .minus {
+                        width: 30px;
                     }
-                    .num{
-                        width:40px;
+
+                    .num {
+                        width: 40px;
                     }
-                    .plus{
-                        width:30px;
+
+                    .plus {
+                        width: 30px;
                     }
 
                 }
-                .total_price{
-                    font-size:20px;
-                    color:#222;
-                    .strong{
-                        font-size:27px;
+
+                .total_price {
+                    font-size: 20px;
+                    color: #222;
+
+                    .strong {
+                        font-size: 27px;
                         font-weight: 700;
                         line-height: 31px;
                     }
@@ -1178,40 +1189,363 @@ a {
             }
 
             .pro_detail_button {
-                margin-top:20px;
+                margin-top: 20px;
                 display: flex;
-                gap:5px;
-                button{
-                    flex:1;
-                    height:62px;
+                gap: 5px;
+
+                button {
+                    flex: 1;
+                    height: 62px;
                     line-height: 62px;
-                    border:none;
-                    padding:0px;
-                    font-size:16px;
+                    border: none;
+                    padding: 0px;
+                    font-size: 18px;
                     font-weight: 500;
                     background-color: #fff;
                     box-sizing: border-box;
                     text-align: center;
+                    font-family: "roboto", "Pretendard", sans-serif;
                 }
-                .add_cart{
-                    border:1px solid #444;
+
+                .add_cart {
+                    border: 1px solid #444;
                 }
-                .add_order{
+
+                .add_order {
                     background-color: #C03636;
-                    color:#fff;
+                    color: #fff;
                 }
             }
 
             .add_subs_bt {
-                margin-top:25px;
-                width:100%;
-                height:69px;
+                margin-top: 25px;
+                width: 100%;
+                height: 69px;
                 line-height: 69px;
                 background-color: #D79412;
-                color:#fff;
-                font-size:18px;
-                text-align:center;
+                color: #fff;
+                font-size: 18px;
+                text-align: center;
 
+            }
+        }
+    }
+
+    .tab_box {
+        margin-top: 90px;
+        .pro_tab_menu {
+            display: flex;
+            li {
+                flex:1;
+                text-align: center;
+                line-height: 70px;
+                height:70px;
+                color:#777;
+                font-size:18px;
+                font-weight: 500;
+                &.select{
+                    border-bottom:2px solid #000;
+                    color:#000;
+                }
+            }
+        }
+    }
+
+    .pro_detail_view{
+        .pro_img_overview{
+            background-color: #ECDFD5;
+        .overview.wrap{
+            height:600px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:0px 50px;
+            box-sizing: border-box;
+            position:relative;
+            background-image: url("./img/pro_over_bg.jpg");
+            background-size:cover;
+            .text_box{
+                width:100%;
+                .tit_eng{
+                    color:#D9AE92;
+                    img{
+                        width:150px;}
+                }
+                .pro_tit{
+                    font-size:50px;
+                    letter-spacing: -1.5px;
+                    
+                }
+                .pro_desc{
+                    margin-top:18px;
+                    font-size:20px;
+                    color:#222;
+                    line-height: 30px;
+                }
+                .divider{
+                    width:60px;
+                    height:2px;
+                    background-color: #222;
+                    margin-top: 46px;
+                }
+                .pro_desc2{
+                    margin-top:46px;
+                    font-size:16px;
+                    line-height:24px;
+                    color:#555;
+                }
+            }
+            .img_box{
+                position:absolute;
+                right:0px;
+                bottom:-40px;
+                width:548px;
+                img{
+                    width:100%;
+                }
+            }
+            
+        }
+    }
+    }
+    .pro_overview{
+        border-bottom:1px solid #ddd;
+        margin-top:70px;
+        font-size:18px;
+        line-height: 27px;
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        padding:0px 50px 70px;
+        box-sizing: border-box;
+        .origin{
+            .ori_tit{
+                color:#777;
+            }
+            .ori_txt{
+                margin-top:10px;
+            }
+        }
+    }
+    .pro_taste{
+        position:relative;
+        margin-top:70px;
+        padding:0 50px;
+        box-sizing: border-box;
+        .tas_tit{
+
+        }
+        .tas_txt{
+            font-size:18px;
+            color:#333;
+            margin-top:23px;
+        }
+        .tas_list{
+            width:650px;
+            margin-top:38px;
+            padding:50px;
+            box-sizing: border-box;
+            border-top:1px solid #ccc;
+            border-bottom:1px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            gap:30px;
+            li{
+                display: flex;
+                .tas_li_tit{
+                    width:90px;
+                    font-size:16px;
+                    color:#333;
+                }
+                .tas_li_score{
+                    flex:1;
+                    display: flex;
+                    gap:2px;
+                    align-items: center;
+                    span{
+                        display: block;
+                        flex:1;
+                        background-color:#ccc;
+                        height:3px;
+                        &.select{
+                            background-color:#000;
+                        }
+                    }
+                }
+            }
+        }
+        .tas_list_txt{
+            font-size:16px;
+            color:#333;
+            margin-top:32px;
+        }
+        .tas_intens{
+            position:absolute;
+            right: 80px;
+    top: calc(50% - 110px);
+            width:220px;
+            height:220px;
+            background-color:#8C6449;
+            border-radius: 50%;
+            color:#fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap:15px;
+            background-image: url("./img/taste_bg.png");
+            background-size:cover;
+            
+            .intens_tit{
+                text-transform: uppercase;
+                font-size: 24px;
+                line-height:24px;
+                
+            }
+            .intens_num{
+                font-size:137px;
+                font-weight: 700;
+                line-height: 105px;
+            }
+        }
+
+    }
+    .pro_recipe{
+        background-color: #f8f8f8;
+        .wrap{
+            margin-top:70px;
+            padding:70px 50px;
+            box-sizing: border-box;
+            .recipe_txt{
+                font-size:18px;
+                margin-top:18px;
+            }
+            .recipe_items{
+                display: flex;
+                margin-top:40px;
+                gap:10px;
+                line-height: 15px;
+                li{
+                    flex:1;
+                    height:377px;
+                    background-color:#fff;
+                    padding:20px 20px 43px;
+                    box-sizing: border-box;
+                    .time_level{
+                        display: flex;
+                        font-size:14px;
+                        color:#666;
+                        gap:12px;
+                        .time{
+                            background-image: url("./img/ico_time.svg");
+                            background-repeat: no-repeat;
+                            background-position: left 0px;
+                            padding-left:19px;
+                            box-sizing: border-box;
+                            span{
+                                background-image: url("./img/line_10.svg");
+                                background-repeat: no-repeat;
+                                background-position: right center; 
+                                display: block;
+                            
+                                
+                            padding-right:12px;
+                            box-sizing: border-box;
+                            }
+                            
+                        }
+                        .level{
+                            background-image: url("./img/ico_star.svg");
+                            background-repeat: no-repeat;
+                            background-position: left -1px;
+                            padding-left:19px;
+                            box-sizing: border-box;
+                            padding-right:10px;
+                            
+                        }
+                    }
+                    .recipe_img{
+                        height:250px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            height:170px;
+                        }
+                    }
+                    .recipe_info{
+                        text-align: center;
+                        .rec_tit{
+                            font-size:20px;
+
+                        }
+                        .rec_desc{
+                            font-size:15px;
+                            color:#333;
+                            margin-top:8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .border_bottom{
+        border-bottom:1px solid #ddd;
+    }
+    .pro_recomm_cap{
+        padding:70px 50px;
+        box-sizing: border-box;
+        .recomm_items{
+            margin-top:30px;
+            display: flex;
+            gap:15px;
+            li{
+                flex:1;
+                .recomm_img{
+                    height:210px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #f8f8f8;
+                    img{
+                        width:130px;
+                        display: block;
+                    }
+                }
+                .recomm_info{
+                    padding-top:15px;
+                    box-sizing: border-box;
+                    .recomm_tit{
+                        font-size:18px;
+                        font-weight: 500;
+                    }
+                    .recomm_desc{
+                        font-size:15px;
+                        color:#333;
+                        margin-top:2px;
+                    }
+                    .recomm_price{
+                        margin-top:15px;
+                        font-size:15px;
+                        letter-spacing: -0.5px;
+                        .sale{
+                            color:#C03636;
+                            font-size:20px;
+                            margin-right:5px;
+                        }
+                        .final{
+                            font-size:20px;
+                            font-weight: 700;
+                            
+                            margin-right:5px;
+                        }
+                        .real{
+                            font-size:15px;
+                            color:#777;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
             }
         }
     }

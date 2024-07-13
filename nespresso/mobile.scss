@@ -455,6 +455,7 @@
     }
   }
 
+
   .coffee_container {
     display: flex;
     flex-direction: column;
@@ -672,6 +673,285 @@
       }
     }
   }
+
+  
+  .product_view{
+    padding-top:0;
+    .pro_photo_info{
+      flex-direction: column;
+      gap:0px;
+      .pro_img_view{
+        width:100%;
+
+        .pro_img_big{
+          height:90vw;
+          position:relative;
+          .pro_img_page{
+            position:absolute;
+            bottom:10px;
+            left:50%;
+            display: flex;
+            gap:5px;
+            span{
+              width:5px;
+              height:5px;
+              color:rgba(0, 0, 0, 0.1);
+              border-radius: 50%;
+              &.select {
+                background-color: #fff;
+                border:1px solid #ccc;
+            }
+            }
+          }
+          img{}
+        }
+        .pro_thumb_list{
+          display: none;
+        
+        }
+      }
+      
+    
+    .product_detail_info{
+      flex:initial;
+      width:100%;
+      padding:40px 16px;
+      box-sizing: border-box;
+      
+      .sns_bt{
+        top:40px;
+        right:16px;
+      }
+      .pro_detail_cate{
+        display: none;
+      }
+      .pro_detail_tit{
+        font-size:22px;
+        margin-top:0px;
+      }
+      .pro_detail_desc{
+        font-size:14px;
+        margin-top:6px;
+
+      }
+      .pro_detail_price{
+        margin-top:10px;
+        display: block;
+        .price_info{
+          font-size:14px;
+          line-height: 18px;
+          height:18px;
+          .sale{
+            font-size:19px;
+          }
+          .final{
+            span{
+              font-size:24px;
+
+            }
+          }
+          .real{
+            font-size:16px;
+
+        }
+      }
+        .unit_price{
+          margin-top:14px;
+          font-size:12px;
+        }
+
+      }
+      .capsule_feature_list{
+
+      }
+      .pro_detail_total{
+
+      }
+      .pro_detail_button{
+
+      }
+      .add_sub_bt{
+
+      }
+    }
+    }
+    .tab_box{
+      margin-top:0px;
+      .pro_tab_menu{
+        padding:0 16px;
+        box-sizing: border-box;
+        li{
+          line-height:50px;
+          height: 50px;
+          font-size:14px;
+        }
+      }
+    }
+    .pro_detail_view{
+      .pro_img_overview{
+        .overview.wrap{
+          display:block;
+          height:540px;
+          padding:55px 31px 0px;
+          background-size:90% 100%;
+          .text_box{
+            .tit_eng{
+              width:104px;
+            }
+            .pro_tit{
+              font-size:32px;
+              margin-top:10px;
+            }
+            .pro_desc{
+              font-size:16px;
+              margin-top:45px;
+              line-height: 23px;
+            }
+            .divider{display: none;}
+            .pro_desc2{
+              display: none;
+            }
+          }
+          .img_box{
+            right:5px;
+            bottom:30px;
+            width:308px;
+          }
+        }
+      }
+    }
+    .pro_overview{
+      margin-top:50px;
+      font-size:15px;
+      line-height:21px;
+      gap:40px;
+      padding:0px 16px 50px;
+      .origin{
+        .ori_txt{
+          margin-top:5px;
+        }
+      }
+    }
+    .pro_taste{
+      margin-top:50px;
+      padding:0 16px;
+      .tas_txt{
+        font-size:15px;
+        margin-top:6px;
+        width:75%;
+      }
+      .tas_list{
+        width:100%;
+        margin-top:20px;
+        padding:30px 10px;
+        gap:25px;
+        li{
+          .tas_li_tit{
+            width:56px;
+            font-size: 14px;
+          }
+          .tas_li_score{
+            
+          }
+
+        }
+      }
+      .tas_list_txt{
+        font-size: 12px;
+        margin-top:20px;
+      }
+      .tas_intens{
+        width:70px;
+        height:70px;
+        top:0px;
+        right:16px;
+        gap:2px;
+        padding-top: 6px;
+        box-sizing: border-box;
+        .intens_tit{
+          font-size:8px;
+          line-height: 8px;
+        }
+        .intens_num{
+        font-size:44px;
+        line-height:40px; 
+        }
+      }
+    }
+    .pro_recipe{
+      .wrap{
+        margin-top:50px;
+        padding:50px 16px;
+        .recipe_txt{
+          display: none;
+        }
+        .recipe_items{
+          margin-top:20px;
+          li{
+            display: none;
+            &:first-child{
+              display: block;
+            }
+            .recipe_img{
+
+            }
+            .recipe_info{
+              .rec_tit{
+                
+              }
+              .rec_desc{
+                margin-top:11px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .pro_recomm_cap{
+      padding:50px 16px;
+      .recomm_items{
+        gap:5px;
+        li{
+          flex:initial;
+          width:33%;
+
+          &:nth-child(4){
+            display: none;
+          }
+          .recomm_img{
+            height:30vw;
+            img{
+              width:60%;
+            }
+          }
+          .recomm_info{
+            padding-top:5px;
+            .recomm_tit{
+              font-size:12px;
+            }
+            .recomm_desc{
+              display: none;
+            }
+            .recomm_price{
+              margin-top:5px;
+              font-size:14px;
+              .sale{
+                font-size:14px;
+              }
+              .final{
+                font-size:14px;
+              }
+              .real{
+                font-size:14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
 
   .footer_container {
     margin-top: 40px;

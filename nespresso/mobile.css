@@ -512,6 +512,234 @@
     line-height: 40px;
     font-size: 13px;
   }
+  .product_view {
+    padding-top: 0;
+  }
+  .product_view .pro_photo_info {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .product_view .pro_photo_info .pro_img_view {
+    width: 100%;
+  }
+  .product_view .pro_photo_info .pro_img_view .pro_img_big {
+    height: 90vw;
+    position: relative;
+  }
+  .product_view .pro_photo_info .pro_img_view .pro_img_big .pro_img_page {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    display: flex;
+    gap: 5px;
+  }
+  .product_view .pro_photo_info .pro_img_view .pro_img_big .pro_img_page span {
+    width: 5px;
+    height: 5px;
+    color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+  .product_view .pro_photo_info .pro_img_view .pro_img_big .pro_img_page span.select {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  .product_view .pro_photo_info .pro_img_view .pro_thumb_list {
+    display: none;
+  }
+  .product_view .pro_photo_info .product_detail_info {
+    flex: initial;
+    width: 100%;
+    padding: 40px 16px;
+    box-sizing: border-box;
+  }
+  .product_view .pro_photo_info .product_detail_info .sns_bt {
+    top: 40px;
+    right: 16px;
+  }
+  .product_view .pro_photo_info .product_detail_info .pro_detail_cate {
+    display: none;
+  }
+  .product_view .pro_photo_info .product_detail_info .pro_detail_tit {
+    font-size: 22px;
+    margin-top: 0px;
+  }
+  .product_view .pro_photo_info .product_detail_info .pro_detail_desc {
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  .product_view .pro_photo_info .product_detail_info .pro_detail_price {
+    margin-top: 10px;
+    display: block;
+  }
+  .product_view .pro_photo_info .product_detail_info .pro_detail_price .price_info {
+    font-size: 14px;
+    line-height: 18px;
+    height: 18px;
+  }
+  .product_view .pro_photo_info .product_detail_info .pro_detail_price .price_info .sale {
+    font-size: 19px;
+  }
+  .product_view .pro_photo_info .product_detail_info .pro_detail_price .price_info .final span {
+    font-size: 24px;
+  }
+  .product_view .pro_photo_info .product_detail_info .pro_detail_price .price_info .real {
+    font-size: 16px;
+  }
+  .product_view .pro_photo_info .product_detail_info .pro_detail_price .unit_price {
+    margin-top: 14px;
+    font-size: 12px;
+  }
+  .product_view .tab_box {
+    margin-top: 0px;
+  }
+  .product_view .tab_box .pro_tab_menu {
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  .product_view .tab_box .pro_tab_menu li {
+    line-height: 50px;
+    height: 50px;
+    font-size: 14px;
+  }
+  .product_view .pro_detail_view .pro_img_overview .overview.wrap {
+    display: block;
+    height: 540px;
+    padding: 55px 31px 0px;
+    background-size: 90% 100%;
+  }
+  .product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .tit_eng {
+    width: 104px;
+  }
+  .product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .pro_tit {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  .product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .pro_desc {
+    font-size: 16px;
+    margin-top: 45px;
+    line-height: 23px;
+  }
+  .product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .divider {
+    display: none;
+  }
+  .product_view .pro_detail_view .pro_img_overview .overview.wrap .text_box .pro_desc2 {
+    display: none;
+  }
+  .product_view .pro_detail_view .pro_img_overview .overview.wrap .img_box {
+    right: 5px;
+    bottom: 30px;
+    width: 308px;
+  }
+  .product_view .pro_overview {
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 21px;
+    gap: 40px;
+    padding: 0px 16px 50px;
+  }
+  .product_view .pro_overview .origin .ori_txt {
+    margin-top: 5px;
+  }
+  .product_view .pro_taste {
+    margin-top: 50px;
+    padding: 0 16px;
+  }
+  .product_view .pro_taste .tas_txt {
+    font-size: 15px;
+    margin-top: 6px;
+    width: 75%;
+  }
+  .product_view .pro_taste .tas_list {
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 10px;
+    gap: 25px;
+  }
+  .product_view .pro_taste .tas_list li .tas_li_tit {
+    width: 56px;
+    font-size: 14px;
+  }
+  .product_view .pro_taste .tas_list_txt {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .product_view .pro_taste .tas_intens {
+    width: 70px;
+    height: 70px;
+    top: 0px;
+    right: 16px;
+    gap: 2px;
+    padding-top: 6px;
+    box-sizing: border-box;
+  }
+  .product_view .pro_taste .tas_intens .intens_tit {
+    font-size: 8px;
+    line-height: 8px;
+  }
+  .product_view .pro_taste .tas_intens .intens_num {
+    font-size: 44px;
+    line-height: 40px;
+  }
+  .product_view .pro_recipe .wrap {
+    margin-top: 50px;
+    padding: 50px 16px;
+  }
+  .product_view .pro_recipe .wrap .recipe_txt {
+    display: none;
+  }
+  .product_view .pro_recipe .wrap .recipe_items {
+    margin-top: 20px;
+  }
+  .product_view .pro_recipe .wrap .recipe_items li {
+    display: none;
+  }
+  .product_view .pro_recipe .wrap .recipe_items li:first-child {
+    display: block;
+  }
+  .product_view .pro_recipe .wrap .recipe_items li .recipe_info .rec_desc {
+    margin-top: 11px;
+  }
+  .product_view .pro_recomm_cap {
+    padding: 50px 16px;
+  }
+  .product_view .pro_recomm_cap .recomm_items {
+    gap: 5px;
+  }
+  .product_view .pro_recomm_cap .recomm_items li {
+    flex: initial;
+    width: 33%;
+  }
+  .product_view .pro_recomm_cap .recomm_items li:nth-child(4) {
+    display: none;
+  }
+  .product_view .pro_recomm_cap .recomm_items li .recomm_img {
+    height: 30vw;
+  }
+  .product_view .pro_recomm_cap .recomm_items li .recomm_img img {
+    width: 60%;
+  }
+  .product_view .pro_recomm_cap .recomm_items li .recomm_info {
+    padding-top: 5px;
+  }
+  .product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_tit {
+    font-size: 12px;
+  }
+  .product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_desc {
+    display: none;
+  }
+  .product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_price {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_price .sale {
+    font-size: 14px;
+  }
+  .product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_price .final {
+    font-size: 14px;
+  }
+  .product_view .pro_recomm_cap .recomm_items li .recomm_info .recomm_price .real {
+    font-size: 14px;
+  }
   .footer_container {
     margin-top: 40px;
     border: none;

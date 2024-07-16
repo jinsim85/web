@@ -55,7 +55,7 @@
   }
 
   .main_title {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 500;
   }
 
@@ -584,7 +584,6 @@
 
       }
     }
-
     .coffee_products {
       margin-top: 20px;
 
@@ -603,7 +602,7 @@
 
             .img_box {
               img {
-                width: 50%;
+                width: 60%;
               }
             }
 
@@ -640,6 +639,10 @@
             .coffee_desc {
               font-size: 13px;
               margin-top: 1px;
+              
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
             }
 
             .coffee_price {
@@ -792,20 +795,22 @@
         .overview.wrap{
           display:block;
           height:540px;
-          padding:55px 31px 0px;
+          padding:70px 31px 0px;
           background-size:90% 100%;
           .text_box{
             .tit_eng{
               width:104px;
+              img{width:100%;}
             }
             .pro_tit{
               font-size:32px;
-              margin-top:10px;
             }
             .pro_desc{
               font-size:16px;
-              margin-top:45px;
+              margin-top:25px;
               line-height: 23px;
+              
+    span.m_br{display: block;}
             }
             .divider{display: none;}
             .pro_desc2{
@@ -826,9 +831,15 @@
       line-height:21px;
       gap:40px;
       padding:0px 16px 50px;
+      padding: 0 0 50px;
+      margin-left: 16px;
+      margin-right: 16px;
+      width: 100%;
       .origin{
         .ori_txt{
           margin-top:5px;
+          letter-spacing: -0.3px;
+          .m_br{display: block;}
         }
       }
     }
@@ -839,19 +850,20 @@
         font-size:15px;
         margin-top:6px;
         width:75%;
+        line-height: 21px;
       }
       .tas_list{
         width:100%;
         margin-top:20px;
         padding:30px 10px;
-        gap:25px;
+        gap:17px;
         li{
           .tas_li_tit{
             width:56px;
             font-size: 14px;
           }
           .tas_li_score{
-            
+            span{height:2px;}
           }
 
         }
@@ -859,12 +871,15 @@
       .tas_list_txt{
         font-size: 12px;
         margin-top:20px;
+        .m_br{
+          display: block;
+        }
       }
       .tas_intens{
         width:70px;
         height:70px;
         top:0px;
-        right:16px;
+        right:23px;
         gap:2px;
         padding-top: 6px;
         box-sizing: border-box;
@@ -893,7 +908,7 @@
               display: block;
             }
             .recipe_img{
-
+              img{height:150px;}
             }
             .recipe_info{
               .rec_tit{
@@ -910,7 +925,8 @@
     .pro_recomm_cap{
       padding:50px 16px;
       .recomm_items{
-        gap:5px;
+        margin-top:20px;
+        gap:10px;
         li{
           flex:initial;
           width:33%;
@@ -919,21 +935,25 @@
             display: none;
           }
           .recomm_img{
-            height:30vw;
+            height:27vw;
             img{
               width:60%;
             }
           }
           .recomm_info{
-            padding-top:5px;
+            padding-top:7px;
+            box-sizing: border-box;
             .recomm_tit{
               font-size:12px;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
             }
             .recomm_desc{
               display: none;
             }
             .recomm_price{
-              margin-top:5px;
+              margin-top:3px;
               font-size:14px;
               .sale{
                 font-size:14px;
@@ -943,6 +963,15 @@
               }
               .real{
                 font-size:14px;
+                display: none;
+              }
+            }
+          }
+        }
+        &.pro_etc{
+          li{
+            .recomm_img{
+              img{
               }
             }
           }

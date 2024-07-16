@@ -831,10 +831,7 @@
       line-height:21px;
       gap:40px;
       padding:0px 16px 50px;
-      padding: 0 0 50px;
-      margin-left: 16px;
-      margin-right: 16px;
-      width: 100%;
+      box-sizing: border-box;
       .origin{
         .ori_txt{
           margin-top:5px;

@@ -108,7 +108,7 @@
     font-size: 18px;
   }
   .main_container .main_event .event .event_info .event_subt {
-    margin-top: 4px;
+    margin-top: 3px;
   }
   .main_container .main_machine {
     width: 100%;
@@ -122,7 +122,7 @@
   .main_container .main_machine .machine_info {
     flex-direction: column;
     margin-top: 20px;
-    gap: 16px;
+    gap: 18px;
   }
   .main_container .main_machine .machine_info .info_cont {
     border: none;

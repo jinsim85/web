@@ -66,7 +66,6 @@ a {
 }
 .header_container .header .logo_section img {
   width: 100%;
-  mix-blend-mode: difference;
 }
 .header_container .header .search_section {
   border-bottom: 1px solid #666;
@@ -429,7 +428,7 @@ a {
   padding: 0 20px;
   color: #000;
   background-color: transparent;
-  font-size: 16px;
+  font-size: 15px;
   border: 1px solid #000;
   transition-duration: 0.2s;
 }
@@ -1360,7 +1359,6 @@ a {
 }
 .footer_container .footer_info .company_info .footer_logo img {
   width: 100%;
-  mix-blend-mode: difference;
 }
 .footer_container .footer_info .company_info .company_name {
   margin-top: 10px;

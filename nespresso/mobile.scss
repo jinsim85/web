@@ -699,12 +699,13 @@
           .pro_img_page{
             position:absolute;
             bottom:10px;
-            left:50%;
+            width:100%;
             display: flex;
             gap:5px;
+            
             span{
-              width:5px;
-              height:5px;
+              width:8px;
+              height:8px;
               color:rgba(0, 0, 0, 0.1);
               border-radius: 50%;
               &.select {
@@ -993,12 +994,11 @@
 
   .slide_dot {
     display: block;
-    margin-top: 15px;
+    margin-top: 30px;
     text-align: center;
     display: flex;
     justify-content: center;
     gap: 5px;
-
     span {
         width: 8px;
         height: 8px;
@@ -1010,6 +1010,9 @@
         }
     }
 
+}
+.recipe_page.slide_dot{
+  margin-top:20px;
 }
 
 

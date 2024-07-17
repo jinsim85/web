@@ -1316,6 +1316,10 @@ a {
   display: none;
 }
 
+.slide_dot {
+  display: none;
+}
+
 .footer_container {
   margin-top: 80px;
   border-top: 1px solid #ccc;

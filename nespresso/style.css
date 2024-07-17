@@ -793,6 +793,13 @@ a {
   border-bottom: 1px solid #ddd;
 }
 
+.line_bottom {
+  width: 1128px;
+  height: 1px;
+  background: #ddd;
+  margin: auto;
+}
+
 .product_view {
   padding-top: 60px;
 }
@@ -995,7 +1002,7 @@ a {
   background-color: #C03636;
   color: #fff;
 }
-.product_view .pro_photo_info .product_detail_info .add_subs_bt {
+.product_view .pro_photo_info .product_detail_info .add_sub_bt {
   margin-top: 25px;
   width: 100%;
   height: 69px;
@@ -1079,7 +1086,6 @@ a {
   width: 100%;
 }
 .product_view .pro_overview {
-  border-bottom: 1px solid #ddd;
   margin-top: 70px;
   font-size: 18px;
   line-height: 27px;

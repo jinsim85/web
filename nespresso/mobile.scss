@@ -679,7 +679,14 @@
 
   
   .product_view{
+    .line_bottom {
+      width: calc(100% - 32px);
+      height: 1px;
+      background: #ddd;
+      box-sizing: border-box;
+    }
     padding-top:0;
+    
     .pro_photo_info{
       flex-direction: column;
       gap:0px;
@@ -771,10 +778,17 @@
 
       }
       .pro_detail_button{
-
+        button{
+          font-size:16px;
+          height: 60px;
+    line-height: 60px;
+        }
       }
       .add_sub_bt{
-
+        font-size:16px;
+        margin-top: 15px;
+        height: 60px;
+    line-height: 60px;
       }
     }
     }

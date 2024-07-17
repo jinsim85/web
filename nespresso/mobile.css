@@ -518,6 +518,12 @@
   .product_view {
     padding-top: 0;
   }
+  .product_view .line_bottom {
+    width: calc(100% - 32px);
+    height: 1px;
+    background: #ddd;
+    box-sizing: border-box;
+  }
   .product_view .pro_photo_info {
     flex-direction: column;
     gap: 0px;
@@ -592,6 +598,17 @@
     margin-top: 14px;
     font-size: 12px;
   }
+  .product_view .pro_photo_info .product_detail_info .pro_detail_button button {
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+  }
+  .product_view .pro_photo_info .product_detail_info .add_sub_bt {
+    font-size: 16px;
+    margin-top: 15px;
+    height: 60px;
+    line-height: 60px;
+  }
   .product_view .tab_box {
     margin-top: 0px;
   }
@@ -644,10 +661,7 @@
     line-height: 21px;
     gap: 40px;
     padding: 0px 16px 50px;
-    padding: 0 0 50px;
-    margin-left: 16px;
-    margin-right: 16px;
-    width: 100%;
+    box-sizing: border-box;
   }
   .product_view .pro_overview .origin .ori_txt {
     margin-top: 5px;

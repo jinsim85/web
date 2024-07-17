@@ -1312,6 +1312,10 @@ a {
   width: 70%;
 }
 
+.recipe_page {
+  display: none;
+}
+
 .footer_container {
   margin-top: 80px;
   border-top: 1px solid #ccc;

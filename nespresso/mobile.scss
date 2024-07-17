@@ -990,6 +990,39 @@
       }
     }
   }
+  .recipe_page {
+    display: block;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    span {
+        width: 13px;
+        height: 13px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+
+        &.select {
+            background-color: #aaa;
+        }
+    }
+
+}
+
+
+  .recipe_page {
+    margin-top: 10px;
+    gap: 5px;
+
+    span {
+      width: 8px;
+      height: 8px;
+    }
+
+  }
 
 
 

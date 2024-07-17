@@ -537,7 +537,7 @@
   }
   .product_view .pro_photo_info .pro_img_view .pro_img_big .pro_img_page {
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     width: 100%;
     display: flex;
     gap: 5px;
@@ -547,10 +547,6 @@
     height: 8px;
     color: rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-  }
-  .product_view .pro_photo_info .pro_img_view .pro_img_big .pro_img_page span.select {
-    background-color: #fff;
-    border: 1px solid #ccc;
   }
   .product_view .pro_photo_info .pro_img_view .pro_thumb_list {
     display: none;

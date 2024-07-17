@@ -52,6 +52,7 @@
   }
   .main_container {
     margin-top: 60px;
+    margin-bottom: 50px;
   }
   .main_container .main_visual {
     height: 620px;
@@ -311,7 +312,7 @@
   .main_container .main_icon_menu .icon_menu_items {
     gap: 10px;
     box-sizing: border-box;
-    margin: 0 16px;
+    margin: 0 16px 40px;
   }
   .main_container .main_icon_menu .icon_menu_items li {
     height: 69px;
@@ -516,6 +517,7 @@
     font-size: 13px;
   }
   .product_view {
+    margin-bottom: 10px;
     padding-top: 0;
   }
   .product_view .line_bottom {
@@ -652,11 +654,11 @@
     width: 308px;
   }
   .product_view .pro_overview {
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 15px;
     line-height: 21px;
-    gap: 40px;
-    padding: 0px 16px 50px;
+    gap: 25px;
+    padding: 0px 16px 40px;
     box-sizing: border-box;
   }
   .product_view .pro_overview .origin .ori_txt {
@@ -667,7 +669,7 @@
     display: block;
   }
   .product_view .pro_taste {
-    margin-top: 50px;
+    margin-top: 40px;
     padding: 0 16px;
   }
   .product_view .pro_taste .tas_txt {
@@ -714,8 +716,8 @@
     line-height: 40px;
   }
   .product_view .pro_recipe .wrap {
-    margin-top: 50px;
-    padding: 50px 16px;
+    margin-top: 40px;
+    padding: 40px 16px;
   }
   .product_view .pro_recipe .wrap .recipe_txt {
     display: none;
@@ -736,7 +738,7 @@
     margin-top: 11px;
   }
   .product_view .pro_recomm_cap {
-    padding: 50px 16px;
+    padding: 40px 16px;
   }
   .product_view .pro_recomm_cap .recomm_items {
     margin-top: 20px;
@@ -753,7 +755,7 @@
     height: 27vw;
   }
   .product_view .pro_recomm_cap .recomm_items li .recomm_img img {
-    width: 60%;
+    width: 80%;
   }
   .product_view .pro_recomm_cap .recomm_items li .recomm_info {
     padding-top: 7px;
@@ -782,6 +784,9 @@
     font-size: 14px;
     display: none;
   }
+  .product_view .pro_recomm_cap .recomm_items.pro_etc li .recomm_img img {
+    width: 90%;
+  }
   .slide_dot {
     display: block;
     margin-top: 30px;
@@ -803,7 +808,6 @@
     margin-top: 20px;
   }
   .footer_container {
-    margin-top: 40px;
     border: none;
     display: flex;
     flex-direction: column-reverse;

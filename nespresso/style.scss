@@ -169,6 +169,7 @@ a {
 
 .main_container {
     margin-top: 140px;
+    margin-bottom:80px;
 
     .main_visual {
         width: 100%;
@@ -618,7 +619,7 @@ a {
 
     .main_icon_menu {
         width: 1128px;
-        margin: 80px auto 0px;
+        margin: 80px auto;
 
         .icon_menu_items {
             text-align: center;
@@ -987,6 +988,7 @@ a {
 .product_view {
     padding-top: 60px;
 
+    margin-bottom:40px;
     .pro_photo_info {
         display: flex;
         gap: 20px;
@@ -1639,7 +1641,7 @@ a {
 .slide_dot{display: none;}
 
 .footer_container {
-    margin-top: 80px;
+    //margin-top: 80px;
     border-top: 1px solid #ccc;
 
     .footer_menu_wrap {

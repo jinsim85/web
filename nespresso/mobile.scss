@@ -66,6 +66,7 @@
 
   .main_container {
     margin-top: 60px;
+    margin-bottom:50px;
 
     .main_visual {
       height: 620px;
@@ -409,7 +410,7 @@
       .icon_menu_items {
         gap: 10px;
         box-sizing: border-box;
-        margin: 0 16px;
+        margin: 0 16px 40px;
 
         li {
           height: 69px;
@@ -679,6 +680,7 @@
 
   
   .product_view{
+    margin-bottom:10px;
     .line_bottom {
       width: calc(100% - 32px);
       height: 1px;
@@ -838,11 +840,11 @@
       }
     }
     .pro_overview{
-      margin-top:50px;
+      margin-top:40px;
       font-size:15px;
       line-height:21px;
-      gap:40px;
-      padding:0px 16px 50px;
+      gap:25px;
+      padding:0px 16px 40px;
       box-sizing: border-box;
       .origin{
         .ori_txt{
@@ -853,7 +855,7 @@
       }
     }
     .pro_taste{
-      margin-top:50px;
+      margin-top:40px;
       padding:0 16px;
       .tas_txt{
         font-size:15px;
@@ -904,8 +906,8 @@
     }
     .pro_recipe{
       .wrap{
-        margin-top:50px;
-        padding:50px 16px;
+        margin-top:40px;
+        padding:40px 16px;
         .recipe_txt{
           display: none;
         }
@@ -932,10 +934,11 @@
       }
     }
     .pro_recomm_cap{
-      padding:50px 16px;
+      padding:40px 16px;
       .recomm_items{
         margin-top:20px;
         gap:10px;
+       
         li{
           flex:initial;
           width:33%;
@@ -946,7 +949,7 @@
           .recomm_img{
             height:27vw;
             img{
-              width:60%;
+              width:80%;
             }
           }
           .recomm_info{
@@ -977,11 +980,14 @@
             }
           }
         }
-        &.pro_etc{
-          li{
-            .recomm_img{
-              img{
-              }
+
+      }
+      .recomm_items.pro_etc{
+        li{
+          .recomm_img{
+            
+            img{
+              width:90%;
             }
           }
         }
@@ -1016,7 +1022,7 @@
 
 
   .footer_container {
-    margin-top: 40px;
+    //margin-top: 40px;
     border: none;
     display: flex;
     flex-direction: column-reverse;

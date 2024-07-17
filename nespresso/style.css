@@ -147,6 +147,7 @@ a {
 
 .main_container {
   margin-top: 140px;
+  margin-bottom: 80px;
 }
 .main_container .main_visual {
   width: 100%;
@@ -507,7 +508,7 @@ a {
 }
 .main_container .main_icon_menu {
   width: 1128px;
-  margin: 80px auto 0px;
+  margin: 80px auto;
 }
 .main_container .main_icon_menu .icon_menu_items {
   text-align: center;
@@ -802,6 +803,7 @@ a {
 
 .product_view {
   padding-top: 60px;
+  margin-bottom: 40px;
 }
 .product_view .pro_photo_info {
   display: flex;
@@ -1321,7 +1323,6 @@ a {
 }
 
 .footer_container {
-  margin-top: 80px;
   border-top: 1px solid #ccc;
 }
 .footer_container .footer_menu_wrap {

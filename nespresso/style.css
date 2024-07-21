@@ -996,6 +996,7 @@ a {
   box-sizing: border-box;
   text-align: center;
   font-family: "roboto", "Pretendard", sans-serif;
+  color: #000000;
 }
 .product_view .pro_photo_info .product_detail_info .pro_detail_button .add_cart {
   border: 1px solid #444;
